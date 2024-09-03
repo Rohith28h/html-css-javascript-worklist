@@ -1,0 +1,322 @@
+/* *{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+
+#logo{
+   color: rgb(22, 90, 23);
+    
+    height: 50px;
+    padding: 5px;
+}
+
+.header{
+    background-color: #8299C3;
+    position: fixed;
+    width: 100%;
+
+}
+
+#but{
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 90, 23) ;
+    border-radius: 10%;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    right:10px;
+    cursor: pointer;
+
+}
+
+ 
+.section{
+    
+    position: absolute;
+    top: 15px;
+    left: 500px;
+}
+
+
+.menu{
+    
+   padding: 10px;
+   cursor: pointer;
+   color: rgb(22, 90, 23);
+   font-size: 17px;
+   font-family: math; 
+
+}
+
+
+li{
+    display: inline;
+}
+
+
+.action{
+    color: red;
+}
+
+.menu:hover{
+    color: red;
+}
+ 
+.container{
+    background-image: url(architecture-8254661_1920.jpg);
+    height: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    overflow: hidden; 
+    
+}
+
+.bannertitle{
+    color: aliceblue;
+    margin-top: 300px;
+    margin-left: 290px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+ 
+.box1{
+    border: 2px solid rgb(7, 6, 6);
+    box-shadow: 0 0 3px black;
+    height: 150px;
+    width:  25%;
+}
+.box2{
+    border: 2px solid rgb(7, 6, 6);
+    box-shadow: 0 0 3px black;
+    height: 150px;
+    width: 25%;
+    padding-right: 20px;
+}
+.box3{
+    border: 2px solid rgb(7, 6, 6);
+    box-shadow: 0 0 3px black;
+    height: 150px;
+    width: 25%;
+}
+.cs{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right:40px ;
+    border-radius: 0 20% 0 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-right: 20px;
+}
+
+@media screen and (min-width:400px) and (max-width:600px){
+    body{
+        background-color: blue
+    };
+} */
+
+
+
+body {
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    position: fixed;
+    width:100%;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+    font-family:'Garamond', 'serif';
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+ 
+li {
+    margin: 0 30px;
+    
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.imghedtohero{
+    background: url('building-4803602_1920.jpg') no-repeat center center/cover;
+    
+}
+.hero h1{
+    margin-top: -22px;
+
+}
+ 
+.hero {
+    
+    color: #fff;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about
+{
+    background: url("architecture-8254661_1920.jpg");
+    color: #ffffff;
+    margin: 20px 0;
+     
+
+}
+ 
+.about, .services {
+    padding: 20px;
+    text-align: center;
+    transition: 2s;
+    box-shadow: 0 0 3px black;
+
+     
+}
+
+ 
+.services {
+    background: #ffffff;
+    background: url("building-8531835_1920.jpg");
+    color: #fff;
+
+
+}
+
+.bottomimg{
+    background: url("building-8531835_1920.jpg");
+}
+
+.service {
+    margin-bottom: 20px;   
+    border:2px solid #000000;
+    margin-bottom: 50px;
+     
+}
+
+.service:hover{
+    transition: 2s;
+    transform: scale(0.9);
+    background: #000000;
+    color: #fff;
+
+
+
+}
+.service ul{
+     list-style: none;
+     
+}
+.service ul li{
+     overflow: hidden;
+}
+
+footer {
+     
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.box1{
+     border: 2px solid rgb(7, 6, 6);
+     box-shadow: 0 0 3px black;
+    height: 300px;
+    width: 26%;
+    overflow: hidden;
+}
+.box2{
+    border: 2px solid rgb(7, 6, 6);;
+    box-shadow: 0 0 3px black;  
+    height: 300px;
+    width: 26%;
+    overflow: hidden;
+}
+.box3{
+    border: 2px solid rgb(7, 6, 6);;
+    box-shadow: 0 0 3px black;
+    height: 300px;
+    width: 26%;
+    overflow: hidden;
+}
+.cs{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right:20px ;
+    border-radius: 0 20% 0 0;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    background: #000000;
+}
+.cs:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    z-index: 3;
+}
+ 
+.allbox{
+    align-items: center;
+
+}
+
+ 
+
+.contact-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+
+.contact-form form{
+    position: relative;
+    width: 400px;
+}
+
+.service b{
+     font-weight: 700;
+}
+form input, form textarea{
+   width:100%;
+   padding:14px;
+   border: none;
+   outline: none;
+   background: #0c111e;
+   margin-bottom:  0.5rem; 
+   border-radius: 4px;
+   color:#fff;
+}
+
+form input::placeholder,form textarea::placeholder{
+    color: #fff;
+}
+
