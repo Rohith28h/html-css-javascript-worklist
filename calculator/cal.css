@@ -1,0 +1,71 @@
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin:0;
+    background-color: #ffffff;
+}
+
+.calender{
+    background-color: #111111;
+    border-radius: 10px;
+    box-shadow: 0 0 3px #222222;
+    overflow: hidden;
+    width: 300px;
+    color: white;
+    padding: 20px;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.btn {
+    cursor: pointer;
+}
+
+#monthyear{
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.weekdays, .days{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.days{
+    height: 240px;
+}
+
+.weekdays div, .days div{
+    width: 14.28%;
+    text-align:center ;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+.days div{
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+
+.days div:hover{
+    background-color: white;
+    color: orangered;
+}
+
+.days .today{
+    background-color: orangered;
+    color: #ffffff;
+
+}
+
+.days .fade{
+    color: #555;
+}
